@@ -10,7 +10,7 @@ static NSString *kLoremIpsum = @"Lorem ipsum dolor sit er elit lamet, consecteta
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+	[super viewDidLoad];
 	self.textView.text = kLoremIpsum;
 	self.textView.font = self.font;
 }

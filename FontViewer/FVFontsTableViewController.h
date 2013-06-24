@@ -1,6 +1,8 @@
-#import <UIKit/UIKit.h>
-
+/*!
+ * A table view controller which lists all system fonts.
+ */
 @interface FVFontsTableViewController : UITableViewController
-@property (strong, nonatomic) NSArray *fontFamilyNames;
 
+/*! An array which contains names of all system fonts. */
+@property (strong, nonatomic) NSArray *fontFamilyNames;
 @end

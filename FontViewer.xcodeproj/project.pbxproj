@@ -384,6 +384,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontViewer/FontViewer-Prefix.pch";
 				INFOPLIST_FILE = "FontViewer/FontViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,6 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontViewer/FontViewer-Prefix.pch";
 				INFOPLIST_FILE = "FontViewer/FontViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +463,7 @@
 				D4BD39541775ECA000DC161C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4BD39551775ECA000DC161C /* Build configuration list for PBXNativeTarget "FontViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +472,7 @@
 				D4BD39571775ECA000DC161C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
